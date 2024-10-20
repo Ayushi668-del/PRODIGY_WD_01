@@ -1,0 +1,75 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Menu Styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav {
+    background: linear-gradient(to right, #4A90E2, #007AFF);
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Style when scrolling */
+.scrolled {
+    background: #001F54; /* Darker background */
+}
+
+/* Sections */
+section {
+    padding: 100px 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#home {
+    background-color: #f2f2f2;
+}
+
+#about {
+    background-color: #ddd;
+}
+
+#services {
+    background-color: #bbb;
+}
+
+#contact {
+    background-color: #999;
+}
